@@ -1,0 +1,49 @@
+
+$blue: #58ACFA;
+
+$largeText: 16pt;
+
+h1 {
+  font-size: $largeText;
+  color: $blue;
+}
+
+nav {
+
+  width: 500px;
+  margin: auto;
+
+  ul {
+
+    //border: 1px solid red;
+    list-style-type: none;
+    overflow: hidden;
+
+    li {
+
+      float: left;
+      width: 30%;
+      box-shadow: 0px 15px #0052CC inset, 5px 5px 20px 10px #003D99 inset;
+      padding: 2px;
+      border-radius: 2px;
+      border-right: 1px solid white;
+      //&:hover {
+      //  //background-color: gainsboro;
+      //
+      //
+      //
+      //}
+      a {
+        color: white;
+        display: block;
+        line-height: 25px;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+          color: deepskyblue;
+          box-shadow: 0px 15px #0032CE inset, 5px 5px 20px 10px #005D99 inset;
+        }
+      }
+  }}
+}

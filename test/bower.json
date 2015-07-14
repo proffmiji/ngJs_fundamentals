@@ -1,0 +1,6 @@
+{
+  "name": "ng -test",
+  "dependencies": {
+    "jasmine": "~2.3.4"
+  }
+}

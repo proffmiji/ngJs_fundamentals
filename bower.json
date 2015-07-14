@@ -1,0 +1,27 @@
+{
+  "name": "angular tut",
+  "version": "1.0.0",
+  "authors": [
+    "Christopher Wahome <proffmiji@yahoo.com>"
+  ],
+  "description": "intro to angular",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "bower"
+  ],
+  "license": "MIT",
+  "homepage": "www.chrisfc.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular-resource": "~1.4.2",
+    "angular-route": "~1.4.2"
+  }
+}
